@@ -1,0 +1,172 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pamela Balmaceda | UXR Designer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&family=Baloo+2:wght@600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="boot-screen" id="boot-screen" aria-hidden="true">
+      <div class="boot-panel">
+        <p class="boot-title">PAMELA_OS v2.0</p>
+        <p class="boot-line" id="boot-line">Initializing portfolio modules...</p>
+        <div class="xp-bar boot-bar" role="progressbar" aria-label="boot loading" aria-valuemin="0" aria-valuemax="100" aria-valuenow="100">
+          <span style="--target: 100%"></span>
+        </div>
+      </div>
+    </div>
+
+    <div class="starfield" aria-hidden="true"></div>
+    <div class="grid-bg" aria-hidden="true"></div>
+    <div class="scanlines" aria-hidden="true"></div>
+    <div class="cursor-trail" aria-hidden="true"></div>
+    <div id="sparkle-layer" aria-hidden="true"></div>
+
+    <main class="app-shell">
+      <header class="hero glass panel" id="home">
+        <div class="window-bar">
+          <span class="dot blue"></span>
+          <span class="dot pink"></span>
+          <span class="dot green"></span>
+          <p class="window-title">MySpace.exe</p>
+        </div>
+
+        <div class="hero-content">
+          <h1 class="name">
+            <span id="name-typewriter" class="type-cursor" data-full="BALMACEDA, PAMELA TATIANA"></span>
+          </h1>
+          <p class="title">UXR Designer</p>
+          <p class="tagline">Now loading: <span id="typewriter"></span></p>
+
+          <div class="loading-wrap">
+            <p>boot sequence:</p>
+            <div class="xp-bar" role="progressbar" aria-label="profile loading" aria-valuemin="0" aria-valuemax="100" aria-valuenow="92">
+              <span style="--target: 92%"></span>
+            </div>
+          </div>
+
+          <nav class="hero-actions" aria-label="Primary">
+            <a href="#projects" class="btn-gloss">Portfolio</a>
+            <a href="https://www.linkedin.com/in/pamelatatianabalmaceda/" target="_blank" rel="noreferrer" class="btn-gloss">LinkedIn</a>
+            <a href="#contact" class="btn-gloss">Contact</a>
+          </nav>
+        </div>
+      </header>
+
+      <section class="panel glass" id="about">
+        <h2>About Me</h2>
+        <p>
+          UX Designer passionate about how technology can produce a positive impact on business by giving the user
+          a better experience.
+        </p>
+        <p>Based in Cordoba, Argentina. Working globally.</p>
+        <p class="blink">status: online</p>
+      </section>
+
+      <section class="panel glass" id="skills">
+        <h2>Skills.exe</h2>
+        <div class="skill-list">
+          <article class="skill">
+            <p>UX Research (User Personas, quantitative/qualitative methods, insights analysis)</p>
+            <div class="xp-bar" aria-hidden="true"><span style="--target: 92%"></span></div>
+          </article>
+          <article class="skill">
+            <p>UX/UI Design (design sprint, design thinking, UX writing, visual design)</p>
+            <div class="xp-bar" aria-hidden="true"><span style="--target: 90%"></span></div>
+          </article>
+          <article class="skill">
+            <p>Prototyping (LoFi / HiFi)</p>
+            <div class="xp-bar" aria-hidden="true"><span style="--target: 88%"></span></div>
+          </article>
+          <article class="skill">
+            <p>Agile methodologies (Scrum / Kanban / Metrics)</p>
+            <div class="xp-bar" aria-hidden="true"><span style="--target: 84%"></span></div>
+          </article>
+          <article class="skill">
+            <p>Big Data stack (Excel / MySQL / Google Cloud / Python)</p>
+            <div class="xp-bar" aria-hidden="true"><span style="--target: 78%"></span></div>
+          </article>
+        </div>
+      </section>
+
+      <section class="panel glass" id="experience">
+        <h2>Experience Folders</h2>
+        <div class="folder-grid">
+          <article class="folder-card">
+            <h3>📁 UX Design Focus</h3>
+            <p class="meta">Current profile</p>
+            <p>Focused on UX design with strong research skills and a product mindset for digital experiences.</p>
+          </article>
+          <article class="folder-card">
+            <h3>📁 Open to New Experiences</h3>
+            <p class="meta">Global availability</p>
+            <p>Looking for new challenges, exploring ideas, and learning through hands-on work with experienced teams.</p>
+          </article>
+          <article class="folder-card">
+            <h3>📁 Product Growth Path</h3>
+            <p class="meta">Continuous development</p>
+            <p>Growing as a Digital Product Designer by combining UX research, design execution, and collaboration.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="panel glass" id="projects">
+        <h2>Projects / Portfolio</h2>
+        <div class="project-grid">
+          <article class="project-icon">
+            <div class="icon-box">🎨</div>
+            <h3>Behance Portfolio</h3>
+            <p>UX/UI case studies and design work.</p>
+          </article>
+          <article class="project-icon">
+            <div class="icon-box">📘</div>
+            <h3>Google UX Certificate</h3>
+            <p>Course 1 finished, Course 2 in progress (Coursera, 2021).</p>
+          </article>
+          <article class="project-icon">
+            <div class="icon-box">⚡</div>
+            <h3>UX/UI Advanced</h3>
+            <p>Design sprint, design thinking, UX writing, motion UI (Coderhouse, 2021).</p>
+          </article>
+          <article class="project-icon">
+            <div class="icon-box">🧠</div>
+            <h3>UX Research & Big Data</h3>
+            <p>User research process + technical foundations (Coderhouse / Codo a Codo / Blas Pascal University).</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="panel glass" id="contact">
+        <h2>Contact (AIM Style)</h2>
+        <div class="chat-bubble">
+          <p><strong>screenname:</strong> pamelatatianabalmaceda</p>
+          <p><strong>msg:</strong> Let's create digital experiences with impact.</p>
+          <p><strong>email:</strong> <a href="mailto:pamelatatianabalmaceda@gmail.com">pamelatatianabalmaceda@gmail.com</a></p>
+          <p><strong>links:</strong> <a href="https://www.linkedin.com/in/pamelatatianabalmaceda/" target="_blank" rel="noreferrer">LinkedIn</a> / <a href="https://www.behance.net/pamelabalmace" target="_blank" rel="noreferrer">Behance</a></p>
+          <a href="mailto:pamelatatianabalmaceda@gmail.com" class="btn-gloss">Send IM</a>
+        </div>
+      </section>
+
+      <footer class="footer-marquee">
+        <marquee behavior="scroll" direction="left" scrollamount="8">
+          ★ UXR Designer ★ Based in Cordoba, Argentina ★ Working globally ★ Open to new opportunities ★
+        </marquee>
+      </footer>
+    </main>
+
+    <nav class="taskbar" aria-label="Taskbar">
+      <a href="#home" class="task-btn">Home</a>
+      <a href="#about" class="task-btn">About</a>
+      <a href="#skills" class="task-btn">Skills</a>
+      <a href="#experience" class="task-btn">Experience</a>
+      <a href="#projects" class="task-btn">Projects</a>
+      <a href="#contact" class="task-btn">Contact</a>
+    </nav>
+
+    <script src="script.js"></script>
+  </body>
+</html>
